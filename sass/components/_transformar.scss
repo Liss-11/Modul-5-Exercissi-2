@@ -1,0 +1,10 @@
+@mixin transform($name) {
+  -webkit-transform: $name;
+  -moz-transform: $name;
+  -ms-transform: $name;
+  -o-transform: $name;
+  transform: $name;
+}
+@mixin translate3d($x, $y, $z) {
+  @include transform(translate3d($x, $y, $z));
+}

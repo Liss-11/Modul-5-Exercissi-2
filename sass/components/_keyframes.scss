@@ -1,0 +1,19 @@
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    from {
+      transform: translate3d($translate);
+    }
+  }
+
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+
+  @-o-keyframes #{$name} {
+    @content;
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}

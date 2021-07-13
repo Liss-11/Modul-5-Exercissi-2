@@ -1,0 +1,8 @@
+ @mixin aligment ($position) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: $position;
+  height: 100vh;
+  } 
+

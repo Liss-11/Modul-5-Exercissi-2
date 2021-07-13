@@ -1,0 +1,8 @@
+@mixin animation($color, $name, $time) {
+  background-color: $color;
+  animation: {
+    name: $name;
+    duration: $time;
+    timing-function: ease-out;
+  }
+}
